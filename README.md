@@ -26,6 +26,19 @@ I help members strengthen their **technical skills, portfolio, resume, LinkedIn,
 
 ---
 
+## Cyber Speak
+
+<div align="center">
+
+<a href="https://www.skool.com/cyber-speak/about">
+  <img src="./assets/cyber-speak-card.svg" alt="Cyber Speak mentorship community" width="100%" />
+</a>
+
+<sub>Click the card to explore the Cyber Speak community.</sub>
+
+</div>
+
+---
 ## Mentorship Focus
 
 <table>
