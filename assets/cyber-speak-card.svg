@@ -1,0 +1,59 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="40" y1="30" x2="1160" y2="390" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#07111E"/>
+    <stop offset="0.55" stop-color="#0D1728"/>
+    <stop offset="1" stop-color="#08313A"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#2DD4BF"/>
+    <stop offset="1" stop-color="#0EA5E9"/>
+  </linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="10" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<rect x="1" y="1" width="1198" height="418" rx="30" fill="url(#bg)" stroke="#203047" stroke-width="2"/>
+
+<g opacity="0.18">
+  <path d="M0 84H1200M0 168H1200M0 252H1200M0 336H1200" stroke="#334155"/>
+  <path d="M120 0V420M240 0V420M360 0V420M480 0V420M600 0V420M720 0V420M840 0V420M960 0V420M1080 0V420" stroke="#1E293B"/>
+</g>
+
+<circle cx="1040" cy="76" r="5" fill="#2DD4BF" filter="url(#glow)">
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1092" cy="122" r="4" fill="#38BDF8" filter="url(#glow)">
+  <animate attributeName="opacity" values="1;0.25;1" dur="3.1s" repeatCount="indefinite"/>
+</circle>
+
+<rect x="70" y="60" width="86" height="86" rx="22" fill="#0F172A" stroke="#2DD4BF" stroke-width="2"/>
+<text x="113" y="114" text-anchor="middle" fill="#2DD4BF" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="800">CS</text>
+
+<text x="185" y="93" fill="#F8FAFC" font-size="38" font-family="Arial, Helvetica, sans-serif" font-weight="800">CYBER SPEAK</text>
+<text x="185" y="131" fill="#5EEAD4" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="2">PRACTICAL CYBERSECURITY MENTORSHIP</text>
+
+<text x="72" y="207" fill="#E2E8F0" font-size="27" font-family="Arial, Helvetica, sans-serif" font-weight="700">Build proof of skill. Get sharper. Get hired.</text>
+<text x="72" y="246" fill="#94A3B8" font-size="18" font-family="Arial, Helvetica, sans-serif">1:1 mentorship · practical projects · portfolio · interviews · certifications</text>
+
+<g>
+  <rect x="72" y="294" width="276" height="54" rx="14" fill="url(#accent)"/>
+  <text x="210" y="328" text-anchor="middle" fill="#04111A" font-size="17" font-family="Arial, Helvetica, sans-serif" font-weight="800">EXPLORE CYBER SPEAK →</text>
+</g>
+
+<g transform="translate(770 176)">
+  <rect width="342" height="155" rx="20" fill="#0B1320" stroke="#274156"/>
+  <text x="24" y="36" fill="#94A3B8" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="1.5">MENTORSHIP SYSTEM</text>
+  <text x="24" y="76" fill="#F8FAFC" font-size="19" font-family="Arial, Helvetica, sans-serif" font-weight="700">LEARN → BUILD → PROVE</text>
+  <text x="24" y="106" fill="#F8FAFC" font-size="19" font-family="Arial, Helvetica, sans-serif" font-weight="700">POSITION → INTERVIEW</text>
+  <path d="M24 126H310" stroke="#2DD4BF" stroke-width="2" stroke-dasharray="0 300">
+    <animate attributeName="stroke-dasharray" values="0 300;300 0;0 300" dur="5s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<rect x="-300" y="0" width="170" height="420" fill="#2DD4BF" opacity="0.045" transform="skewX(-18)">
+  <animate attributeName="x" from="-300" to="1500" dur="6.5s" repeatCount="indefinite"/>
+</rect>
+</svg>
